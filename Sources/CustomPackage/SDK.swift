@@ -8,7 +8,7 @@
 import Foundation
 
 public struct SDK {
-    static func doSomething(){
+    public static func doSomething(){
         print("Do something...")
     }
 }
