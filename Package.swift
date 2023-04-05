@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "CustomPackage",
     products: [
-        // Products define the executables and libraries a package produces, and make them visible to other packages.
+        // Products define the executables and libraries a package produces, and make them visible to other packages. 
         .library(
             name: "CustomPackage",
             targets: ["CustomPackage"]),
